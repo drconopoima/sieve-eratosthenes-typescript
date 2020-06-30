@@ -1,0 +1,26 @@
+{
+  "name": "sieve-eratosthenes-typescript",
+  "version": "1.0.0",
+  "description": "Run the Sieve of Eratosthenes to find prime numbers up to maximum value",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drconopoima/sieve-eratosthenes-typescript.git"
+  },
+  "keywords": ["algorithms", "primes", "prime", "eratosthenes"],
+  "author": "Luis Jesus Diaz Manzo",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@types/node": "^14.0.14",
+    "@types/yargs": "^15.0.5",
+    "typescript": "^3.9.5",
+    "ts-node": "^8.10.2",
+    "yargs": "~15.3.1"
+  }
+}
