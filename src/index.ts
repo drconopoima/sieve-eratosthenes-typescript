@@ -21,6 +21,6 @@ const sieveOfEratosthenes = function(maxNumber:number) {
     return primes
 }
 
-console.log(sieveOfEratosthenes(maxNumber));
+process.stdout.write(String(sieveOfEratosthenes(maxNumber)) + '\n');
 
 export default { sieveOfEratosthenes }
